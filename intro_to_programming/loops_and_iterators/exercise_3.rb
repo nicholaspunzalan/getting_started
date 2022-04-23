@@ -1,7 +1,7 @@
 # countdown recursion style
 
 def countdown(num)
-  if num == 0
+  if num <= 0
     puts num
   else
     puts num
@@ -10,4 +10,3 @@ def countdown(num)
 end
 
 countdown(900)
-

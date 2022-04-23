@@ -12,10 +12,16 @@
 # end
 # puts x     # 2 -- the value was changed
 
-x = 0
-while x < 5
-  y = x * x
-  x += 1
-  puts y
-end
-puts y
+# x = 0
+# while x < 5
+#   y = x * x
+#   x += 1
+#   puts y
+# end
+# puts y
+
+x = gets.chomp.to_i
+
+until x < 0
+  puts x
+  
