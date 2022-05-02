@@ -20,5 +20,8 @@ contacts.each do |k, v|
   x += 1
 end
 
-print contacts
-  
+
+# Excercise 12.  Access Joe Smith's adress and Sally Johnson's phone
+print contacts["Joe Smith"][:address]
+print "\n"
+print contacts["Sally Johnson"][:phone]
